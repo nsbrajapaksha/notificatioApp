@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeanActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background_red"
+    android:padding="44dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculty: "
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"/>
+
+        <Spinner
+            android:id="@+id/dean_faculty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/faculty_arrays"
+            android:prompt="@string/faculty_prompt"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/dean_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/input_background"
+        android:ems="10"
+        android:hint="Enter ID"
+        android:inputType="text"
+        android:paddingBottom="15dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="15dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/input_background"
+        android:text="Next"
+        android:layout_centerVertical="true"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:onClick="deannextclicked"/>
+
+</LinearLayout>

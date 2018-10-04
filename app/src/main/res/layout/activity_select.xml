@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectActivity"
+    android:background="@drawable/background_red">
+
+    <Button
+        android:id="@+id/dhead_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/input_background"
+        android:text="Department Head"
+        android:layout_centerVertical="true"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:onClick="dheadclicked"/>
+
+    <Button
+        android:id="@+id/dean_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/dhead_button"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/input_background"
+        android:text="Dean"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:onClick="deanclicked"/>
+
+    <Button
+        android:id="@+id/register_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@id/dean_button"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/border_button"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="Already have an account?"
+        android:textAllCaps="false"
+        android:onClick="loginclicked"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

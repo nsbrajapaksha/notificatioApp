@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fc5700</color>
+    <color name="colorPrimaryDark">#FF0000</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="textTabLight">#FFB08B</color>
+    <color name="textTabBright">#ffffff</color>
+
+    <color name="outline_gray">#cccccc</color>
+
+    <color name="accept_color">#27ae60</color>
+    <color name="reject_color">#c0392b</color>
+</resources>

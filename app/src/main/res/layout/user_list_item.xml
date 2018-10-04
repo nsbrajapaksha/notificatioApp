@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/user_list_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="D.K Perera(CS)"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/user_list_vehicles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_list_name"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="BG4356(Bus)"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/user_list_start_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_list_vehicles"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="From 05/05/2018 10:25"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/user_list_end_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_list_start_date"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="To 05/05/2018 10:25"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/user_list_passengers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_list_end_date"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="No of Passsengers: 50"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/user_list_reason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_list_passengers"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="Reason: to a field trip"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/user_list_reason"
+        android:textAllCaps="false"
+        android:text="Confirm"
+        android:id="@+id/user_list_confirm_btn"
+        android:background="@color/accept_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/user_list_confirm_btn"
+        android:textAllCaps="false"
+        android:layout_below="@id/user_list_reason"
+        android:text="Reject"
+        android:background="@color/reject_color"
+        android:id="@+id/user_list_reject_btn" />
+
+</RelativeLayout>

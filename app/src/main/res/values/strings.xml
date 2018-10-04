@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">notificationExample</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_notification_channel_id">Tvac_CH_01</string>
+
+    <string name="faculty_prompt">Choose a faculty</string>
+
+    <string-array name="faculty_arrays">
+        <item>Applied Sciences</item>
+        <item>Medical Science</item>
+        <item>Management</item>
+        <item>Art</item>
+    </string-array>
+</resources>
